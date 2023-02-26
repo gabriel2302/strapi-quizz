@@ -35,6 +35,15 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::tag.tag"
+    },
+    "littleKnowledge": {
+      "type": "string"
+    },
+    "mediumKnowledge": {
+      "type": "string"
+    },
+    "fullKnowledge": {
+      "type": "string"
     }
   }
 }
