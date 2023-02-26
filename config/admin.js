@@ -5,4 +5,9 @@ module.exports = ({ env }) => ({
   apiToken: {
     salt: env('API_TOKEN_SALT'),
   },
+  rateLimit: {
+    interval: { min: 1},
+    timeWait: 3*1000,
+    max: 15
+  }
 });
