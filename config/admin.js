@@ -7,7 +7,7 @@ module.exports = ({ env }) => ({
   },
   rateLimit: {
     interval: { min: 1},
-    timeWait: 3*1000,
-    max: 3
+    timeWait: 30*1000,
+    max: 1
   }
 });
